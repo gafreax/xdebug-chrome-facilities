@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.write('loaded');
     document.getElementById("btn_phpstorm_start").addEventListener("click",startPhpStorm);
     document.getElementById("btn_phpstorm_stop").addEventListener("click",stopPhpStorm);
 });
