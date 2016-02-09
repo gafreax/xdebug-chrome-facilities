@@ -1,5 +1,6 @@
 <script>
-function startPhpStorm() {
+function startPhpStorm() {  
+    alert("Start XDEBUG");
     document.cookie='XDEBUG_SESSION='+'PHPSTORM'+';path=/;';
     window.close();
 }
@@ -9,6 +10,7 @@ function stopPhpStorm() {
 }
 
 </script>
+<h3>debug</h3>
 <button id="btn_phpstorm_start" onclick="return startPhpStorm();">phpstorm start</button><br>
 <button id="btn_phpstorm_stop" onclick="return stopPhpStorm();">phpstorm stop</button>
 
