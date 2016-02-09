@@ -1,21 +1,6 @@
-<script>
-function startPhpStorm() {  
-    document.cookie='XDEBUG_SESSION='+'PHPSTORM'+';path=/;';
-    window.close();
-}
-function stopPhpStorm() {
-    document.cookie='XDEBUG_SESSION='+''+';expires=Mon, 05 Jul 2000 00:00:00 GMT;path=/;';
-    window.close();
-}
+<script src="script.js" />
 
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("btn_phpstorm_start").addEventListener("click",startPhpStorm);
-    document.getElementById("btn_phpstorm_stop").addEventListener("click",stopPhpStorm);
-
-});
-
-</script>
-<h3>xdebug phpstorm</h3>
-<button id="btn_phpstorm_start" onclick="return startPhpStorm();">start</button><br>
-<button id="btn_phpstorm_stop" onclick="return stopPhpStorm();">stop</button>
+<h3>phpstorm</h3>
+<button id="btn_phpstorm_start">start</button><br>
+<button id="btn_phpstorm_stop">stop</button>
 
